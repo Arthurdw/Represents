@@ -1,5 +1,5 @@
 import re
-from distutils.core import setup
+from setuptools import setup
 from os import path
 
 with open('represents/__init__.py') as f:

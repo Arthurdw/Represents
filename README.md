@@ -3,6 +3,13 @@
 A utility library created to easily make great looking `__repr__` classes without effort!
 This library is also supports recursive class inheritance, for previously inherited classes.
 
+## Installation
+
+You can easily install the library from PyPi by using `pip`.
+```bash
+pip install represents
+```
+
 ## Supported methods:
 
 ### Class decorator:
