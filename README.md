@@ -10,6 +10,7 @@ This library is also supports recursive class inheritance, for previously inheri
 ```python
 from represents import represents_decorator
 
+
 @represents_decorator
 class MyClass:
     pass
@@ -20,6 +21,7 @@ class MyClass:
 ```python
 from represents import Represents
 
+
 class Foo(Represents):
     pass
 ```
@@ -28,6 +30,7 @@ class Foo(Represents):
 
 ```python
 from represents import represents
+
 
 class Foo:
     __repr__ = represents
@@ -39,3 +42,6 @@ class Foo:
 * **Object**: `<ObjectName string='value' amount=123 bool=True>`
 * **Recursive object**: `<ObjectName foo='foo' sub_obj=<SecondObject bar='bar'>>`
 
+# Examples
+
+Examples can be found @ [the github examples directory](https://github.com/Arthurdw/Represents/tree/master/examples)
