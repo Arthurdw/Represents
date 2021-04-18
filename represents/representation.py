@@ -52,7 +52,7 @@ def represents(obj: object) -> str:
         item = f"'{item}'" if isinstance(item, str) else item
         if issubclass(item.__class__, Represents):
             item = repr(item)
-        elif 4 < max_str_length < len(item) and isinstance(item, str):
+        elif isinstance(item, str) and 4 < max_str_length < len(item):
             item = item[0:max_str_length - 4] + "'..."
 
         return item
